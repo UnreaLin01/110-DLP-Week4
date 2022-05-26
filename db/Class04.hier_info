@@ -1,0 +1,61 @@
+|Class04
+cIN => fullAdder:Adders:1:Adder.cIn
+a[1] => fullAdder:Adders:1:Adder.a
+a[2] => fullAdder:Adders:2:Adder.a
+a[3] => fullAdder:Adders:3:Adder.a
+a[4] => fullAdder:Adders:4:Adder.a
+b[1] => fullAdder:Adders:1:Adder.b
+b[2] => fullAdder:Adders:2:Adder.b
+b[3] => fullAdder:Adders:3:Adder.b
+b[4] => fullAdder:Adders:4:Adder.b
+sum[1] << fullAdder:Adders:1:Adder.sum
+sum[2] << fullAdder:Adders:2:Adder.sum
+sum[3] << fullAdder:Adders:3:Adder.sum
+sum[4] << fullAdder:Adders:4:Adder.sum
+cOut << fullAdder:Adders:4:Adder.cOut
+
+
+|Class04|fullAdder:\Adders:1:Adder
+a => cOut.IN0
+a => cOut.IN0
+b => cOut.IN1
+b => cOut.IN1
+cIn => cOut.IN1
+cIn => sum.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Class04|fullAdder:\Adders:2:Adder
+a => cOut.IN0
+a => cOut.IN0
+b => cOut.IN1
+b => cOut.IN1
+cIn => cOut.IN1
+cIn => sum.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Class04|fullAdder:\Adders:3:Adder
+a => cOut.IN0
+a => cOut.IN0
+b => cOut.IN1
+b => cOut.IN1
+cIn => cOut.IN1
+cIn => sum.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Class04|fullAdder:\Adders:4:Adder
+a => cOut.IN0
+a => cOut.IN0
+b => cOut.IN1
+b => cOut.IN1
+cIn => cOut.IN1
+cIn => sum.IN1
+cOut <= cOut.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+
+

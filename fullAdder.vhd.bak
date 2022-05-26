@@ -1,0 +1,5 @@
+ENTITY fullAdder IS 
+	PORT(
+		a, b, cIn:IN STD_LOGIC;
+		cOut, sum:IN STD_LOGIC);
+END fullAdder
